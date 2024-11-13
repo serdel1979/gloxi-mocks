@@ -2343,7 +2343,7 @@ input::placeholder {
 }
 
 .search-close {
-	font-size: 28px;
+	font-size: 30px;
 	right: 0 !important;
 	cursor: pointer;
 	width: 30px;
@@ -2354,6 +2354,7 @@ input::placeholder {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	line-height: 30px;
 }
 
 .search-close:hover {
