@@ -2,32 +2,31 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
-    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
-    <!--plugins-->
-    <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
-
-    <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
-    <link href="assets/plugins/highcharts/css/highcharts.css" rel="stylesheet" />
-    <link href="assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
-    <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="assets/css/pace.min.css" rel="stylesheet" />
-    <script src="assets/js/pace.min.js"></script>
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link href="assets/css/app.css" rel="stylesheet">
-    <link href="assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="assets/css/dark-theme.css" />
-    <link rel="stylesheet" href="assets/css/semi-dark.css" />
-    <link rel="stylesheet" href="assets/css/header-colors.css" />
-    <title>Synadmin – Bootstrap5 Admin Template</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon-->
+	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+	<!--plugins-->
+	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+	<link href="assets/plugins/highcharts/css/highcharts.css" rel="stylesheet" />
+	<link href="assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+	<link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+	<!-- loader-->
+	<link href="assets/css/pace.min.css" rel="stylesheet" />
+	<script src="assets/js/pace.min.js"></script>
+	<!-- Bootstrap CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link href="assets/css/app.css" rel="stylesheet">
+	<link href="assets/css/icons.css" rel="stylesheet">
+	<!-- Theme Style CSS -->
+	<link rel="stylesheet" href="assets/css/dark-theme.css" />
+	<link rel="stylesheet" href="assets/css/semi-dark.css" />
+	<link rel="stylesheet" href="assets/css/header-colors.css" />
+	<title>Administración</title>
 </head>
 
 <body>
@@ -41,32 +40,9 @@
                     <nav class="navbar navbar-expand gap-3">
                         <div class="topbar-logo-header">
                             <div class="">
-                                <img src="assets/images/logo.jpg" alt="logo icon">
+                                <img src="assets/images/logo.jpg" width="120" alt="logo icon">
                             </div>
                         </div>
-                        <!--
-						<div class="mobile-toggle-menu d-block d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"><i class='bx bx-menu'></i></div>
-						<div class="top-menu-left d-none d-lg-block">
-							<ul class="nav">
-							  <li class="nav-item">
-								<a class="nav-link" href="app-emailbox.html"><i class='bx bx-envelope'></i></a>
-							  </li>
-							  <li class="nav-item">
-								<a class="nav-link" href="app-chat-box.html"><i class='bx bx-message'></i></a>
-							  </li>
-							  <li class="nav-item">
-								<a class="nav-link" href="app-fullcalender.html"><i class='bx bx-calendar'></i></a>
-							  </li>
-							  <li class="nav-item">
-								  <a class="nav-link" href="app-to-do.html"><i class='bx bx-check-square'></i></a>
-							  </li>
-						  </ul>
-						 </div>
-                         -->
-
-
-
-
                         <div class="search-bar flex-grow-1">
                             <div class="position-relative search-bar-box">
                                 <input type="text" class="form-control search-control" placeholder="Type to search...">
@@ -76,8 +52,13 @@
                                         class='bx bx-x'></i></span>
                             </div>
                         </div>
+                        <div class="mobile-toggle-menu d-block d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"><i class='bx bx-menu'></i></div>
                         <div class="top-menu ms-auto">
                             <ul class="navbar-nav align-items-center gap-1">
+								<li class="d-none  d-md-block">
+									<a class="mx-2" href="">CONVIERTETE EN AFILIADO</a>
+								</li>
+
                                 <li class="nav-item mobile-search-icon">
                                     <a class="nav-link" href="#"><i class='bx bx-search'></i>
                                     </a>
@@ -86,47 +67,6 @@
                                     <a class="nav-link dark-mode-icon" href="javascript:;"><i class='bx bx-moon'></i>
                                     </a>
                                 </li>
-                                <!--
-								<li class="nav-item dropdown dropdown-large">
-									<a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">	<i class='bx bx-category'></i>
-									</a>
-									<div class="dropdown-menu dropdown-menu-end">
-										<div class="row row-cols-3 g-3 p-3">
-											<div class="col text-center">
-												<div class="app-box mx-auto bg-gradient-cosmic text-white"><i class='bx bx-group'></i>
-												</div>
-												<div class="app-title">Teams</div>
-											</div>
-											<div class="col text-center">
-												<div class="app-box mx-auto bg-gradient-burning text-white"><i class='bx bx-atom'></i>
-												</div>
-												<div class="app-title">Projects</div>
-											</div>
-											<div class="col text-center">
-												<div class="app-box mx-auto bg-gradient-lush text-white"><i class='bx bx-shield'></i>
-												</div>
-												<div class="app-title">Tasks</div>
-											</div>
-											<div class="col text-center">
-												<div class="app-box mx-auto bg-gradient-kyoto text-dark"><i class='bx bx-notification'></i>
-												</div>
-												<div class="app-title">Feeds</div>
-											</div>
-											<div class="col text-center">
-												<div class="app-box mx-auto bg-gradient-blues text-dark"><i class='bx bx-file'></i>
-												</div>
-												<div class="app-title">Files</div>
-											</div>
-											<div class="col text-center">
-												<div class="app-box mx-auto bg-gradient-moonlit text-white"><i class='bx bx-filter-alt'></i>
-												</div>
-												<div class="app-title">Alerts</div>
-											</div>
-										</div>
-									</div>
-								</li>
-                                -->
-
                                 <li class="nav-item">
                                     <a class="nav-link" href="javascript:;"><i class='bx bx-camera'></i>
                                     </a>
@@ -194,28 +134,29 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav d-flex justify-content-center flex-row align-items-center flex-grow-1">
                                 <li class="nav-item dropdown">
-                                    <a type="button"  class="nav-link text-primary" href="javascript:;">Arte</a>
+                                    <a type="button" class="nav-link" href="javascript:;" style="color: #0fbbe6;">Arte</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a type="button"  class="nav-link text-primary" href="javascript:;">Marketing</a>
+                                    <a type="button" class="nav-link" href="javascript:;" style="color: #0fbbe6;">Marketing</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a type="button"  class="nav-link text-primary" href="javascript:;">Agricultura</a>
+                                    <a type="button" class="nav-link" href="javascript:;" style="color: #0fbbe6;">Agricultura</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a type="button"  class="nav-link text-primary" href="javascript:;">Finanzas</a>
+                                    <a type="button" class="nav-link" href="javascript:;" style="color: #0fbbe6;">Finanzas</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a type="button"  class="nav-link text-primary" href="javascript:;">Deporte</a>
+                                    <a type="button" class="nav-link" href="javascript:;" style="color: #0fbbe6;">Deporte</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a type="button"  class="nav-link text-primary" href="javascript:;">Alimentación</a>
+                                    <a type="button" class="nav-link" href="javascript:;" style="color: #0fbbe6;">Alimentación</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a type="button"  class="nav-link text-primary" href="javascript:;" data-bs-toggle="dropdown">Espirualidad</a>
+                                    <a type="button" class="nav-link" href="javascript:;" style="color: #0fbbe6;">Espirualidad</a>
                                 </li>
                             </ul>
                         </div>
+                        
                         
                     </div>
                 </nav>
@@ -297,7 +238,7 @@
                             <!-- Card 2 -->
                             <div class="col">
                                 <div class="card h-100">
-                                    <iframe class="card-img-top" src="https://www.youtube.com/shorts/xsrMRRZbPB4" 
+                                    <iframe class="card-img-top" src="https://www.youtube.com/embed/ceay27EWvPs" 
                                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="card-body">
                                         <h5 class="card-title">Título del Video</h5>
@@ -311,7 +252,7 @@
                             <!-- Card 3 -->
                             <div class="col">
                                 <div class="card h-100">
-                                    <iframe class="card-img-top" src="https://www.youtube.com/watch?v=8kIJEUUH40Q&list=RDceay27EWvPs&index=5" 
+                                    <iframe class="card-img-top" src="https://www.youtube.com/embed/ceay27EWvPs" 
                                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="card-body">
                                         <h5 class="card-title">Título del Video</h5>
@@ -343,7 +284,7 @@
                             <!-- Card 2 -->
                             <div class="col">
                                 <div class="card h-100">
-                                    <iframe class="card-img-top" src="https://www.youtube.com/watch?v=URGORB-B5Z4&list=RDceay27EWvPs&index=7" 
+                                    <iframe class="card-img-top" src="hhttps://www.youtube.com/embed/ceay27EWvPs" 
                                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="card-body">
                                         <h5 class="card-title">Título del Video</h5>
@@ -357,7 +298,7 @@
                             <!-- Card 3 -->
                             <div class="col">
                                 <div class="card h-100">
-                                    <iframe class="card-img-top" src="https://www.youtube.com/watch?v=8PLgzkTNdsw&list=RDceay27EWvPs&index=8" 
+                                    <iframe class="card-img-top" src="https://www.youtube.com/embed/ceay27EWvPs" 
                                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="card-body">
                                         <h5 class="card-title">Título del Video</h5>
@@ -371,51 +312,52 @@
                             <!-- Repite estas tarjetas para crear más filas -->
                         </div>
 
-                        <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top: 10px; margin-bottom: 10px;">
-                            <!-- Card 1 -->
-                            <div class="col">
-                                <div class="card h-100">
-                                    <iframe class="card-img-top" src="https://www.youtube.com/watch?v=YYO2TSa7K7k&list=RDceay27EWvPs&index=9" 
-                                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Título del Video</h5>
-                                        <p class="card-text"><strong>Tema:</strong> Arte</p>
-                                        <p class="card-text"><strong>Valoración:</strong> ⭐⭐⭐⭐☆</p>
-                                        <p class="card-text"><strong>Precio:</strong> $50</p>
+                       
+                            <div class="p-3" style="background-color: #000; color: #fff;">
+                                <h5 style="color: #fff;">PATROCINADO</h5>
+                                <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top: 10px; margin-bottom: 10px;">
+                                    <!-- Tarjetas de video -->
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <iframe class="card-img-top" src="https://www.youtube.com/embed/ceay27EWvPs" 
+                                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Título del Video</h5>
+                                                <p class="card-text"><strong>Tema:</strong> Arte</p>
+                                                <p class="card-text"><strong>Valoración:</strong> ⭐⭐⭐⭐☆</p>
+                                                <p class="card-text"><strong>Precio:</strong> $50</p>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <iframe class="card-img-top" src="https://www.youtube.com/embed/ceay27EWvPs" 
+                                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Título del Video</h5>
+                                                <p class="card-text"><strong>Tema:</strong> Arte</p>
+                                                <p class="card-text"><strong>Valoración:</strong> ⭐⭐⭐⭐☆</p>
+                                                <p class="card-text"><strong>Precio:</strong> $50</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <iframe class="card-img-top" src="https://www.youtube.com/embed/ceay27EWvPs" 
+                                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Título del Video</h5>
+                                                <p class="card-text"><strong>Tema:</strong> Arte</p>
+                                                <p class="card-text"><strong>Valoración:</strong> ⭐⭐⭐⭐☆</p>
+                                                <p class="card-text"><strong>Precio:</strong> $50</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-                            
-                            <!-- Card 2 -->
-                            <div class="col">
-                                <div class="card h-100">
-                                    <iframe class="card-img-top" src="https://www.youtube.com/watch?v=PzTW9Wdl1P8&list=RDceay27EWvPs&index=10" 
-                                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Título del Video</h5>
-                                        <p class="card-text"><strong>Tema:</strong> Marketing</p>
-                                        <p class="card-text"><strong>Valoración:</strong> ⭐⭐⭐⭐⭐</p>
-                                        <p class="card-text"><strong>Precio:</strong> $60</p>
-                                    </div>
-                                </div>
-                            </div>
-                    
-                            <!-- Card 3 -->
-                            <div class="col">
-                                <div class="card h-100">
-                                    <iframe class="card-img-top" src="https://www.youtube.com/watch?v=YLP0y-X4uYs&list=RDceay27EWvPs&index=13" 
-                                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Título del Video</h5>
-                                        <p class="card-text"><strong>Tema:</strong> Agricultura</p>
-                                        <p class="card-text"><strong>Valoración:</strong> ⭐⭐⭐☆☆</p>
-                                        <p class="card-text"><strong>Precio:</strong> $70</p>
-                                    </div>
-                                </div>
-                            </div>
-                    
-                            <!-- Repite estas tarjetas para crear más filas -->
-                        </div>
+                       
+                        
                     </div>
                     
                 </div>
@@ -513,7 +455,6 @@
     <script src="assets/plugins/highcharts/js/export-data.js"></script>
     <script src="assets/plugins/highcharts/js/accessibility.js"></script>
     <script src="assets/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>
-    <script src="assets/js/index2.js"></script>
     <!--app JS-->
     <script src="assets/js/app.js"></script>
     <script>
