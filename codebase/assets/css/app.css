@@ -3282,3 +3282,9 @@ input::placeholder {
     position: relative;
     z-index: 2;
 }
+
+.contenedor-imagen {
+	background-color: transparent;
+	text-align: center;
+	padding: 20px;
+}
