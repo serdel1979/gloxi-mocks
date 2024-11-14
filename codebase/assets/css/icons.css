@@ -16008,3 +16008,12 @@ icons
 	background-image: url(../flags/1x1/un.svg);
 
 }
+
+.star-rating .bx {
+    color: #ffc107; /* Color amarillo para las estrellas */
+    font-size: 1.25rem; /* Tamaño de las estrellas */
+}
+
+.star-rating .bx.gray {
+    color: #d3d3d3; /* Color gris para las estrellas */
+}
