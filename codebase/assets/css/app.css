@@ -202,7 +202,7 @@ a {
 .primary-menu .navbar .navbar-nav a.nav-link:active,
 .primary-menu .navbar .navbar-nav a.nav-link:focus {
 	color: #ffffff;
-	background-color: #8833ff;
+	background-color: #ddd;
 }
 
 .primary-menu .navbar .navbar-nav a.nav-link:hover {
